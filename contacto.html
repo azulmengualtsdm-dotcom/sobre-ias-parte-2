@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div-style">
+     <h1>Instituto de Asistencia Social-IAS</h1>
+    <h2><strong>Organismo de control de juegos de azar-Formosa</strong></h2>
+    <div>
+    <nav id="menu">
+        <a href="index.html">Inicio</a>
+        <a href="contacto.html">Contacto</a>
+        <a href="sobre.ias.html">Sobre IAS</a>
+        <a href="servicios.html">Funciones</a>
+    </nav>
+</div>
+    <main>
+        <h2>Contacto</h2>
+        <section>
+        <ul>
+            <address>
+                <li>Dirección: Av. 18 de Julio 1234, Formosa, Argentina</li>
+            </address>
+            <li>Teléfono: (370) 423-4567</li>
+            <li> <a href="mailto:info@iasformosa.com.ar">Correo electrónico</a></li>
+        </ul>
+        </section>
+    </main>
+    <!-- empiezo el formulario con  -->
+    <form action="#" method="post" id="formu">
+
+            <label for="nombre">nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="escribe tu nombre aqui">
+        <label for="email">email</label>
+        <!-- al poner el type=email el navegadorlo valida y asegura que tenga el formato correcto
+         el placeholder especifica dentro del cuadro que es lo que se tiene que escribir
+         el for es para asocaiar con el campo que se esta trabajando
+         el label ayuda a definir el nombre  -->
+        <input type="email" id="email" name="email" placeholder="escribe tu email aqui">
+        <label for="telefono">telefono</label>
+        <input type="tel" id="telefono" name="telefono" placeholder="escribe tu telefono aqui">
+        <label for="motivo de consulta">motivo de consulta</label>
+        <!--  el select ayuda a definir el inicio y fin de un formulario de opciones-->
+        <select name="motivo de consulta" id="motivo de consulta">
+            <!-- el option define una opcion en el menu -->
+          <option value="informativo">informativo</option>
+          <option value="juego">juego</option>
+          <option value="otro">otro</option>
+        </select>
+        <label for="mensaje">mensaje</label>
+        <!-- el textarea permite ingresar texto -->
+        <textarea id="mensaje" name="mensaje" placeholder="escribe tu mensaje aqui"></textarea>
+<!--  -->
+        <button type="submit" class="btn-enviar">Enviar</button>
+
+    </form>
+<details>
+    <summary>horario de atencion</summary>
+   <p>de 7am 1pm de lunes a viernes, feriado cerrado </p>
+</details>
+<a href="https://maps.app.goo.gl/AhQzZFFNTJV46sHz7">ubicacion</a>
+</div>
+<div class="div-style">
+<footer>
+        <p>&copy;IAS FORMOSA</p>
+        <p>2026</p>
+    </footer>
+</div>
+</body>
+</html>
